@@ -27,10 +27,12 @@ function reducer(state, action) {
       break;
     }
 
-    case "DELETE": {
-      state.filter((item) => String(item.id) !== String(action.id));
-      break;
-    }
+ case "DELETE": {
+  nextState = state.filter(
+    (item) => String(item.id) !== String(action.id)
+  );
+  break;
+}
     default:
       return state;
   }
