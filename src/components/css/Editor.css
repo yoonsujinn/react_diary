@@ -1,10 +1,11 @@
-.Editor section {
-  margin-bottom: 40px;
+.Editor > section {
+  margin: 20px 0 0 0;
 }
 
 .Editor > section > h4{
-  font-size: 22px;
+  font-size: 30px;  
   font-weight: bold;
+  margin:  0 0 10px 0;
 
 }
 
@@ -13,7 +14,7 @@
   background: rgba(236, 236, 236);
   border: none;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 25px;
   padding: 10px 20px;
 }
 
